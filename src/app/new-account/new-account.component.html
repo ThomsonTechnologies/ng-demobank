@@ -1,0 +1,51 @@
+<div id="maininbox">
+		 <div id="maininboxtitle"><h2>Checking Account</h2><br>Personal Information</div>
+	  <div class="form1div">
+	  <form class="jointbl" ng-submit="addCustomer()">
+		  <table class="tabledivide">
+		  <tbody>
+			<tr class="divide">
+			  <td>First Name: <br><input type="text" ng-model="form.firstName"></td>
+			  <td>Middle name:<br><input type="text" ng-model="midName"></td>
+			</tr>
+			<tr>
+			  <td>Last Name<br><input type="text" ng-model="form.lastName"></td>
+			  <td></td>
+			  <td></td>
+			</tr>
+		</tbody>
+		</table>
+		<table class="tabledivide">
+		<tbody>
+			<tr>
+			  <td><br>Citizenship<br><input type="text" ng-model="form.citizenship"></td>
+			  <td>Date of Birth<br>(MM/DD/YYYY)<br><input type="text" ng-model="form.dob"></td>
+			</tr>
+			<tr>
+			  <td>Social Security Number<br>(999-99-9999)<br><input type="password" ng-model="form.ssn"></td>
+			  <td>&nbsp;</td>
+			  <td>&nbsp;</td>
+			</tr>
+			<tr>
+		</tbody>
+		</table>
+		<table class="tabledivide">
+		<tbody>
+      <tr>
+			  <td>City<br><input type="text" ng-model="form.city"></td>
+			  <td>State<br><input type="text" ng-model="form.state"></td>
+			</tr>
+			<tr>
+			  <td>Country<br><input type="text" ng-model="form.country"></td>
+			  <td>eMail<br><input type="email" ng-model="form.email"></td>
+			</tr>
+		    <tr>
+			  <td>Mobile No<br><input type="text" ng-model="form.phone"></td>
+			</tr>
+		  </tbody>
+		</table>
+			<input type="submit" id="joinbtn" value="Next">
+		</form>
+
+	  </div>
+</div>
